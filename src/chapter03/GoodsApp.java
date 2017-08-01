@@ -5,6 +5,7 @@ import mypackge.Goods2;
 public class GoodsApp {
 
 	public static void main(String[] args) {
+		System.out.println("Dddd");
 			Goods goods = new Goods();//생성자 호출 
 		/*	goods.name = "nikon";
 			goods.price= 20000;
