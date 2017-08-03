@@ -1,4 +1,4 @@
-package paint;
+package com.bigdata2017.paint.shape;
 
 public class Circle extends Shape {
 	private int x1;

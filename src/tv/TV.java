@@ -1,4 +1,4 @@
-package tv;
+/*package tv;
 
 public class TV {
 	//1. 모든 필드는 private으로 접근제어를 하고, getter만 작성합니다. 
@@ -55,4 +55,4 @@ public class TV {
 	public void status() {
 		
 	}
-}
+}*/

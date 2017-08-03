@@ -1,6 +1,8 @@
-package paint;
+package com.bigdata2017.paint.shape;
 
-public class Triangle extends Shape {
+import com.bigdata2017.paint.main.i.Resizable;
+
+public class Triangle extends Shape implements Resizable {
 	private int x1;
 	private int y1;
 	private int x2;
@@ -8,10 +10,10 @@ public class Triangle extends Shape {
 	private int x3;
 	private int y3;
 	
-	/*@Override
+	@Override
 	public void draw() {
 		System.out.println( "삼각형을 그렸습니다." );
-	}*/
+	}
 
 	@Override
 	public int calcArea() {
@@ -19,9 +21,7 @@ public class Triangle extends Shape {
 	}
 
 	@Override
-	public void draw() {
-		// TODO Auto-generated method stub
-		
+	public void resize(double rate) {
 	}
 	
 	

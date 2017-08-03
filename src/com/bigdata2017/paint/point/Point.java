@@ -1,26 +1,19 @@
-package paint;
+package com.bigdata2017.paint.point;
 
-//클래스 메서드 
-public class Point implements Drawable{
+import com.bigdata2017.paint.main.i.Drawable;
+
+public class Point implements Drawable {
 	private int x;
 	private int y;
 	
-	//기본 생성자 
-/*	public Paint() {
-		
+	public Point( int x, int y ) {
+		this.x = x;
+		this.y = y;
 	}
-	*/
-	//생성자
-	public Point(int x, int y) {
-		this.x=x;
-		this.y=y;
-		
-	}
-	//getter 일기 
+	
 	public int getX() {
 		return x;
 	}
-	//setter 쓰기
 	public void setX(int x) {
 		this.x = x;
 	}
@@ -31,7 +24,6 @@ public class Point implements Drawable{
 		this.y = y;
 	}
 	
-	//show 메서드 
 	public void show() {
 		System.out.println(
 			"점[x=" + x + 
@@ -49,14 +41,9 @@ public class Point implements Drawable{
 					"]을 지웠습니다.");
 		}
 	}
+
 	@Override
 	public void draw() {
 		show();
 	}
-	/*@Override
-	public int calcArea() {
-		// TODO Auto-generated method stub
-		return 0;
-	}*/
-	
 }
