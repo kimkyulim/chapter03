@@ -29,5 +29,26 @@ public class GoodsApp {
 			goods2.countSold=12; //얘는 public 
 			goods2.countStock=12;
 			
+			
+			//0802(수)
+			//static 변수 테스트
+			Goods g = new Goods();
+			System.out.println(Goods.getCountofGoods());
+			
+			g = new Goods();
+			System.out.println(Goods.getCountofGoods());
+			
+			g = new Goods();
+			System.out.println(Goods.getCountofGoods());
+			
+			final int value=10;//final은 값이 이게 끝이야. 이건이제 상수야. 라는 의미인데 밑이 value =20;으로 수를 바꾸려고하면 에러 
+			//value =20;
+			//그래서 상수는 대분자로 만들어야함.
+			//final int VALUE=10;
+			
+			
+			goods.showInfo();
+			int discountPrice =  goods.calcDiscountPrice(20);
+			
 	}
 }
